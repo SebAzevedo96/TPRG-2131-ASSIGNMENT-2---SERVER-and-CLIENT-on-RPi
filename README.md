@@ -24,7 +24,7 @@ def get_core_voltage():
     return v.replace('volt=', '').replace('V', '')
 
 
-Function 3:
+# Function 3:
 
 def get_arm_frequency():
     # Command: vcgencmd measure_clock arm
